@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76ECAEAC1940D83B00D97E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ECAEAB1940D83B00D97E39 /* Foundation.framework */; };
+		76ECAEAE1940D83B00D97E39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ECAEAD1940D83B00D97E39 /* CoreGraphics.framework */; };
+		76ECAEB01940D83B00D97E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ECAEAF1940D83B00D97E39 /* UIKit.framework */; };
+		76ECAEB61940D83B00D97E39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76ECAEB41940D83B00D97E39 /* InfoPlist.strings */; };
+		76ECAEB81940D83B00D97E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAEB71940D83B00D97E39 /* main.m */; };
+		76ECAEBC1940D83B00D97E39 /* MRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAEBB1940D83B00D97E39 /* MRAppDelegate.m */; };
+		76ECAEBF1940D83B00D97E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECAEBD1940D83B00D97E39 /* Main.storyboard */; };
+		76ECAEC21940D83B00D97E39 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAEC11940D83B00D97E39 /* MRViewController.m */; };
+		76ECAEC41940D83B00D97E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ECAEC31940D83B00D97E39 /* Images.xcassets */; };
+		76ECAECB1940D83B00D97E39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ECAECA1940D83B00D97E39 /* XCTest.framework */; };
+		76ECAECC1940D83B00D97E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ECAEAB1940D83B00D97E39 /* Foundation.framework */; };
+		76ECAECD1940D83B00D97E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ECAEAF1940D83B00D97E39 /* UIKit.framework */; };
+		76ECAED51940D83B00D97E39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76ECAED31940D83B00D97E39 /* InfoPlist.strings */; };
+		76ECAED71940D83B00D97E39 /* Monsters_RunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAED61940D83B00D97E39 /* Monsters_RunTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76ECAECE1940D83B00D97E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76ECAEA01940D83B00D97E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76ECAEA71940D83B00D97E39;
+			remoteInfo = "Monsters Run";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76ECAEA81940D83B00D97E39 /* Monsters Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monsters Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ECAEAB1940D83B00D97E39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76ECAEAD1940D83B00D97E39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76ECAEAF1940D83B00D97E39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76ECAEB31940D83B00D97E39 /* Monsters Run-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monsters Run-Info.plist"; sourceTree = "<group>"; };
+		76ECAEB51940D83B00D97E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76ECAEB71940D83B00D97E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76ECAEB91940D83B00D97E39 /* Monsters Run-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monsters Run-Prefix.pch"; sourceTree = "<group>"; };
+		76ECAEBA1940D83B00D97E39 /* MRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegate.h; sourceTree = "<group>"; };
+		76ECAEBB1940D83B00D97E39 /* MRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegate.m; sourceTree = "<group>"; };
+		76ECAEBE1940D83B00D97E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76ECAEC01940D83B00D97E39 /* MRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
+		76ECAEC11940D83B00D97E39 /* MRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
+		76ECAEC31940D83B00D97E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76ECAEC91940D83B00D97E39 /* Monsters RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monsters RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ECAECA1940D83B00D97E39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		76ECAED21940D83B00D97E39 /* Monsters RunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monsters RunTests-Info.plist"; sourceTree = "<group>"; };
+		76ECAED41940D83B00D97E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76ECAED61940D83B00D97E39 /* Monsters_RunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monsters_RunTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76ECAEA51940D83B00D97E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECAEAE1940D83B00D97E39 /* CoreGraphics.framework in Frameworks */,
+				76ECAEB01940D83B00D97E39 /* UIKit.framework in Frameworks */,
+				76ECAEAC1940D83B00D97E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECAEC61940D83B00D97E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECAECB1940D83B00D97E39 /* XCTest.framework in Frameworks */,
+				76ECAECD1940D83B00D97E39 /* UIKit.framework in Frameworks */,
+				76ECAECC1940D83B00D97E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76ECAE9F1940D83B00D97E39 = {
+			isa = PBXGroup;
+			children = (
+				76ECAEB11940D83B00D97E39 /* Monsters Run */,
+				76ECAED01940D83B00D97E39 /* Monsters RunTests */,
+				76ECAEAA1940D83B00D97E39 /* Frameworks */,
+				76ECAEA91940D83B00D97E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76ECAEA91940D83B00D97E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAEA81940D83B00D97E39 /* Monsters Run.app */,
+				76ECAEC91940D83B00D97E39 /* Monsters RunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ECAEAA1940D83B00D97E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAEAB1940D83B00D97E39 /* Foundation.framework */,
+				76ECAEAD1940D83B00D97E39 /* CoreGraphics.framework */,
+				76ECAEAF1940D83B00D97E39 /* UIKit.framework */,
+				76ECAECA1940D83B00D97E39 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76ECAEB11940D83B00D97E39 /* Monsters Run */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAEBA1940D83B00D97E39 /* MRAppDelegate.h */,
+				76ECAEBB1940D83B00D97E39 /* MRAppDelegate.m */,
+				76ECAEBD1940D83B00D97E39 /* Main.storyboard */,
+				76ECAEC01940D83B00D97E39 /* MRViewController.h */,
+				76ECAEC11940D83B00D97E39 /* MRViewController.m */,
+				76ECAEC31940D83B00D97E39 /* Images.xcassets */,
+				76ECAEB21940D83B00D97E39 /* Supporting Files */,
+			);
+			path = "Monsters Run";
+			sourceTree = "<group>";
+		};
+		76ECAEB21940D83B00D97E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAEB31940D83B00D97E39 /* Monsters Run-Info.plist */,
+				76ECAEB41940D83B00D97E39 /* InfoPlist.strings */,
+				76ECAEB71940D83B00D97E39 /* main.m */,
+				76ECAEB91940D83B00D97E39 /* Monsters Run-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76ECAED01940D83B00D97E39 /* Monsters RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAED61940D83B00D97E39 /* Monsters_RunTests.m */,
+				76ECAED11940D83B00D97E39 /* Supporting Files */,
+			);
+			path = "Monsters RunTests";
+			sourceTree = "<group>";
+		};
+		76ECAED11940D83B00D97E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAED21940D83B00D97E39 /* Monsters RunTests-Info.plist */,
+				76ECAED31940D83B00D97E39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76ECAEA71940D83B00D97E39 /* Monsters Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ECAEDA1940D83B00D97E39 /* Build configuration list for PBXNativeTarget "Monsters Run" */;
+			buildPhases = (
+				76ECAEA41940D83B00D97E39 /* Sources */,
+				76ECAEA51940D83B00D97E39 /* Frameworks */,
+				76ECAEA61940D83B00D97E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monsters Run";
+			productName = "Monsters Run";
+			productReference = 76ECAEA81940D83B00D97E39 /* Monsters Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76ECAEC81940D83B00D97E39 /* Monsters RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ECAEDD1940D83B00D97E39 /* Build configuration list for PBXNativeTarget "Monsters RunTests" */;
+			buildPhases = (
+				76ECAEC51940D83B00D97E39 /* Sources */,
+				76ECAEC61940D83B00D97E39 /* Frameworks */,
+				76ECAEC71940D83B00D97E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76ECAECF1940D83B00D97E39 /* PBXTargetDependency */,
+			);
+			name = "Monsters RunTests";
+			productName = "Monsters RunTests";
+			productReference = 76ECAEC91940D83B00D97E39 /* Monsters RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76ECAEA01940D83B00D97E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Grigor Grigoryan";
+				TargetAttributes = {
+					76ECAEC81940D83B00D97E39 = {
+						TestTargetID = 76ECAEA71940D83B00D97E39;
+					};
+				};
+			};
+			buildConfigurationList = 76ECAEA31940D83B00D97E39 /* Build configuration list for PBXProject "Monsters Run" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76ECAE9F1940D83B00D97E39;
+			productRefGroup = 76ECAEA91940D83B00D97E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76ECAEA71940D83B00D97E39 /* Monsters Run */,
+				76ECAEC81940D83B00D97E39 /* Monsters RunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76ECAEA61940D83B00D97E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECAEC41940D83B00D97E39 /* Images.xcassets in Resources */,
+				76ECAEB61940D83B00D97E39 /* InfoPlist.strings in Resources */,
+				76ECAEBF1940D83B00D97E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECAEC71940D83B00D97E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECAED51940D83B00D97E39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76ECAEA41940D83B00D97E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECAEB81940D83B00D97E39 /* main.m in Sources */,
+				76ECAEC21940D83B00D97E39 /* MRViewController.m in Sources */,
+				76ECAEBC1940D83B00D97E39 /* MRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECAEC51940D83B00D97E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ECAED71940D83B00D97E39 /* Monsters_RunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76ECAECF1940D83B00D97E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76ECAEA71940D83B00D97E39 /* Monsters Run */;
+			targetProxy = 76ECAECE1940D83B00D97E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76ECAEB41940D83B00D97E39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECAEB51940D83B00D97E39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76ECAEBD1940D83B00D97E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECAEBE1940D83B00D97E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76ECAED31940D83B00D97E39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECAED41940D83B00D97E39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76ECAED81940D83B00D97E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76ECAED91940D83B00D97E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76ECAEDB1940D83B00D97E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monsters Run/Monsters Run-Prefix.pch";
+				INFOPLIST_FILE = "Monsters Run/Monsters Run-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76ECAEDC1940D83B00D97E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monsters Run/Monsters Run-Prefix.pch";
+				INFOPLIST_FILE = "Monsters Run/Monsters Run-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76ECAEDE1940D83B00D97E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Monsters Run.app/Monsters Run";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monsters Run/Monsters Run-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Monsters RunTests/Monsters RunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		76ECAEDF1940D83B00D97E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Monsters Run.app/Monsters Run";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monsters Run/Monsters Run-Prefix.pch";
+				INFOPLIST_FILE = "Monsters RunTests/Monsters RunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76ECAEA31940D83B00D97E39 /* Build configuration list for PBXProject "Monsters Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECAED81940D83B00D97E39 /* Debug */,
+				76ECAED91940D83B00D97E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ECAEDA1940D83B00D97E39 /* Build configuration list for PBXNativeTarget "Monsters Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECAEDB1940D83B00D97E39 /* Debug */,
+				76ECAEDC1940D83B00D97E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76ECAEDD1940D83B00D97E39 /* Build configuration list for PBXNativeTarget "Monsters RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECAEDE1940D83B00D97E39 /* Debug */,
+				76ECAEDF1940D83B00D97E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76ECAEA01940D83B00D97E39 /* Project object */;
+}
